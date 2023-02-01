@@ -1,0 +1,28 @@
+.searchContainer {
+  width: 30vw;
+  padding: 12px 16px;
+  border: 1px solid #aaa;
+  border-radius: 999px;
+}
+
+.searchContainer form {
+  display: flex;
+}
+
+.searchContainer form input[type="text"] {
+  width: 100%;
+  border: none;
+}
+
+.searchContainer form input::placeholder {
+  color: #aaa;
+  opacity: 1;
+}
+
+.searchContainer form input:-ms-input-placeholder {
+  color: #aaa
+}
+
+.searchContainer form input::-ms-input-placeholder {
+  color: #aaa
+}
