@@ -1,5 +1,5 @@
-.navbar {
+.nav {
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-block: 12px;
+  background-color: #fff;
 }

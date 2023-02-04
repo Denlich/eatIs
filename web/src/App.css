@@ -1,5 +1,14 @@
-#root {
+html, body, #root, .App {
   height: 100%;
+}
+
+.button {
+  color: #fff;
+  background-color: #5C995C;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 24px;
+  font-family: 'Montserrat'
 }
 
 .container {
@@ -9,4 +18,37 @@
 .row {
   display: flex;
   align-items: center;
+}
+
+.mh-24 {
+  margin-inline: 24px;
+}
+
+.mv-24 {
+  margin-block: 24px;
+}
+
+.mv-12 {
+  margin-block: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  gap: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-inline: 10px;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .button {
+    font-size: 12px;
+    
+  }
 }

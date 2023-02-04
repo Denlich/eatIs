@@ -5,10 +5,10 @@ import './SearchInput.css'
 
 export default function Search() {
   return (
-    <div class="searchContainer">
+    <div className="searchContainer">
       <form action="">
         <input type="text" placeholder="Search for a meal" />
-        <FontAwesomeIcon icon={faMagnifyingGlass} size={24} color={'#aaa'} />
+        <FontAwesomeIcon icon={faMagnifyingGlass} size={'1x'} color={'#aaa'} />
       </form>
     </div>
   )

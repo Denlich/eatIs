@@ -1,0 +1,9 @@
+.centre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  justify-content: space-between;
+}

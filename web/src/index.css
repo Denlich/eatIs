@@ -1,20 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-  height: 100vh;
+  background-color: #EDF2ED;
   margin: 0;
   font-family: 'Roboto', 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-section {
-  height: 100%;
-  background-color: #EDF2ED;
-}
-
 h1 {
   font-size: 32px;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 24px;
   margin: 0;
   padding: 0;
   font-weight: 300;
@@ -30,4 +32,8 @@ p {
   font-weight: 300;
   margin: 0;
   padding: 0;
+}
+
+button:hover {
+  cursor: pointer;
 }
